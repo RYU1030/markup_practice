@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>練習課題3｢Amazonの登録画面」</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <img class="amazon-logo" src="amazon_img/amazon_logo.png">
+    <div class="box-container">
+      <h1>アカウントを作成</h1>
+      <form action="#" method="POST">
+        <div class="item">
+          <label for="customer-name">名前</label>
+          <input type="text" id="customer-name">
+        </div>
+        <div class="item">
+          <label for="customer-name-pronunciation">フリガナ</label>
+          <input type="text" id="customer-name-pronunciation">
+        </div>
+        <div class="item">
+          <label for="customer-email">Eメールアドレス</label>
+          <input type="email" id="customer-email">
+        </div>
+    
+        <div class="password-field">
+          <label for="password">パスワード</label>
+          <input class="password" type="password" id="password" placeholder="最低６文字必要です">
+          <div class="item">
+            <div class="auth-inlined-message">
+              <p><img src="amazon_img/info.png" alt="alert-image">パスワードの長さは最低6文字です。</p> 
+            </div>
+          </div>
+          <div class="item">
+            <label for="password-check">もう一度パスワードを入力してください</label>
+            <input type="password" id="password-check">
+          </div>
+        </div>
+        <a href="#" class="register-button">Amazonアカウントを作成</a>
+      </form>
+      
+      <div class="account-register">
+        <p class="legal-paragraph">ログインすることにより、当社の<a href="#">利用規約</a>および<a href="#">プライバシー規約</a>に同意したとみなされます。</p>
+      </div>
+      <p class="already-registered">すでにアカウントはお持ちですか?<a href="#"> ログイン</a></p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <ul>
+        <li><a href="#" class="link-normal">利用規約</a></li>
+        <li><a href="#" class="link-normal">プライバシー規約</a></li>            
+        <li><a href="#" class="link-normal">ヘルプ</a></li>
+      </ul>
+      <p class="copyright">© 1996-2020, Amazon.com, Inc. or its affiliates</p>
+    </div>
+  </footer>
+</body>
+</html>
